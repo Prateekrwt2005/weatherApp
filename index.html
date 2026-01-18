@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+     <link rel="stylesheet" href="style.css">
+     <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <div id="weatherapp">
+        <form class="searchform" action="">
+            <input class="searchinput" type="text" placeholder="Enter City Name" />
+            <button class="searchbutton" type="submit" ><i class="ri-search-line"></i></button>
+
+        </form>
+        <div id="citydate">
+            <h2 class="city">Delhi</h2>
+            <p class="date">22 Nov 2025</p>
+        </div>
+        <div id="tempinfo">
+            <div id="description">
+              <i class="ri-sun-fill"></i>
+                <span class="desctext">Sunny</span>
+            </div>
+            <div id="temp">20°</div>
+        </div>
+        <div id="add">
+            <div id="windinfo">
+               <i class="ri-windy-line"></i>
+                <div>
+                    <h3 class="windspeed">
+                        4 KM/H
+                    </h3>
+                    <P class="windlevel">Windy</P>
+
+                </div>
+            </div>
+             <div id="humidityinfo">
+                <i class="ri-water-percent-fill"></i>
+                <div>
+                    <h3 class="humidity-1">
+                       56%
+                    </h3>
+                    <P class="humiditylevel">Humidity</P>
+
+                </div>
+            </div>
+             <div id="visibilityinfo">
+               <i class="ri-eye-fill"></i>
+                <div>
+                    <h3 class="visibilitydis">
+                       Good
+                    </h3>
+                    <P class="visibility1">Visible</P>
+
+                </div>
+            </div>
+        </div>
+    </div>
+   <script src="./script.js"></script>
+
+ </body>
+</html>

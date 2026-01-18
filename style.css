@@ -1,0 +1,155 @@
+@font-face {
+    font-family: gilroy;
+    src: url(./Gilroy-Medium.ttf);
+}
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(204, 86%, 23%);
+    font-family: gilroy;
+    height:100vh;
+
+}
+
+#weatherapp{
+    background-color: white;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 37px;
+
+}
+
+.searchform{
+    display: flex;
+    align-items: center;
+}
+.searchinput{
+    flex:1;
+    padding:14px;
+    border: 2px solid black;
+    font-size: 1.3rem;
+    font-family: gilroy;
+    border-radius: 17px; 
+}
+.searchinput:hover{
+    background-color: rgba(230, 230, 230, 0.423);
+
+}
+.searchbutton{
+    background-color: hsla(204, 86%, 23%, 0.895)  ;
+    border: none;
+    padding: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+    color: white;
+    margin-left:7px;
+    transition: background-color 0.1s ease;
+}
+
+.searchbutton:hover{
+    background-color: hsl(204, 65%, 53%);
+}
+#citydate{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+}
+#citydate .city{
+   font-size: 2.5rem;
+   opacity: 0.9;
+}
+#citydate .date{
+    background-color: rgba(121, 211, 241, 0.373);
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+#tempinfo{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#tempinfo #temp{
+    font-size: 7rem;
+   
+}
+#tempinfo #description{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    gap:8px
+}
+#tempinfo #description i{
+    font-size: 1.5rem;
+    opacity: 0.8;
+}
+#tempinfo #description span{
+    font-size: 1.5rem;
+}
+
+#add{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+#windinfo, #humidityinfo, #visibilityinfo{
+    background-color: rgba(180, 179, 179, 0.31);
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 18px;
+    padding: 30px 20px;
+    box-shadow: rgba(88, 88, 88, 0.934) 0px 3px 8px;
+}
+#add i{
+    font-size: 2.5rem;
+    opacity: 0.8;
+}
+
+#windinfo div,#humidityinfo div, #visibilityinfo div{
+    text-align: center;
+    gap:16px;
+}
+
+#windinfo:hover{
+  background-color: rgba(167, 167, 167, 0.378);
+}
+#humidityinfo:hover{
+  background-color: rgba(167, 167, 167, 0.378);
+}
+#visibilityinfo:hover{
+  background-color: rgba(167, 167, 167, 0.378);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
